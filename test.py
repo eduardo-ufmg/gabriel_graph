@@ -1,7 +1,7 @@
-import numpy as np
-from sklearn.datasets import make_blobs
-from gabriel_graph import gabriel_graph
 from plot_gabriel_graph import plot_gabriel_graph
+from sklearn.datasets import make_blobs
+
+from gabriel_graph import gabriel_graph
 
 # Generate a synthetic blob dataset
 X, _ = make_blobs(
